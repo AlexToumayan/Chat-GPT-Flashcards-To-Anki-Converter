@@ -6,3 +6,10 @@ Introducing Chat GPT Flashcards To Anki Converter, the project that will revolut
 Whether you're a medical student or just a student trying to ace your exams, this tool will make your life so much easier. No more struggling to transfer the front and back of each card into Anki one by one, now you can do it all at once.
 
 So what are you waiting for? Join me in this exciting project and let's make studying a breeze!
+
+* To run locally,
+run the command 
+
+pip install genanki 
+
+In your termnianl all other libraries should come with python already. 
