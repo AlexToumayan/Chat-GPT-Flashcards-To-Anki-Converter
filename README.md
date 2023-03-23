@@ -33,7 +33,7 @@ To run the program, follow these steps:
 
 3. Install the required dependencies:
    * Run the command: pip install -r requirements.txt
-   * And press Enter
+   * And press Enter.
 
 4. Run the script: python Final.py
    * Replace `Final.py` with the name you saved the Python script as. If you saved it as the same, then just run the original python Final.py
