@@ -37,3 +37,22 @@ To run the program, follow these steps:
 
 4. Run the script: python ChatGPT_To_Anki_Converter.py
    * Replace `ChatGPT_To_Anki_Converter.py` with the name you saved the Python script as. If you saved it as the same, then just run the original python ChatGPT_To_Anki_Converter.py
+
+## Usage
+
+To get flashcards from ChatGPT, you can provide it with a prompt similar to the following:
+
+"Hello ChatGPT, please generate flashcards from these lecture notes in the format of 'Front: Your question' and 'Back: Your answer'."
+
+Once you have the flashcards formatted by ChatGPT, open the Chat GPT Flashcards To Anki Converter application, and paste the flashcards into the text area following the specified format:
+
+Front: Your question
+Back: Your answer
+
+For example:
+
+Front: What is the capital of France?
+Back: Paris
+
+After pasting your flashcards, click the "Convert" button, and the program will create an Anki package that you can import into Anki.
+
