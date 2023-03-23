@@ -67,7 +67,7 @@ ChatGPT can be a powerful tool for studying various subjects, including specific
 
 2. **Ask ChatGPT to create flashcards:** To generate flashcards for studying, provide ChatGPT with a prompt that specifies the format you desire. For example:
 
-   "ChatGPT, create flashcards on the topic of 'neural networks' using the information from the specified sources, and format them as 'Front: Your question' and 'Back: Your answer'."
+   "ChatGPT, create flashcards on the topic of 'neural networks' using the information from the specified sources, and format them as 'Front: Your question' and 'Back: Your answer' on a seperate line."
 
 3. **Leverage ChatGPT to become a better student:** ChatGPT can help you study more efficiently by summarizing lecture notes, explaining complex topics, and generating practice questions. For instance:
 
