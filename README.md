@@ -52,8 +52,7 @@ Back: Your answer
 For example:
 
 Front: What is the capital of France?
-
-Back: Paris
+//Back: Paris
 
 After pasting your flashcards, click the "Convert" button, and the program will create an Anki package that you can import into Anki.
 
