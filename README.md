@@ -35,5 +35,5 @@ To run the program, follow these steps:
    * Run the command: pip install -r requirements.txt
    * And press Enter.
 
-4. Run the script: python Final.py
-   * Replace `Final.py` with the name you saved the Python script as. If you saved it as the same, then just run the original python Final.py
+4. Run the script: python ChatGPT_To_Anki_Converter.py
+   * Replace `ChatGPT_To_Anki_Converter.py` with the name you saved the Python script as. If you saved it as the same, then just run the original python ChatGPT_To_Anki_Converter.py
