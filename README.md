@@ -7,9 +7,26 @@ Whether you're a medical student or just a student trying to ace your exams, thi
 
 So what are you waiting for? Join me in this exciting project and let's make studying a breeze!
 
-* To run locally,
-run the command 
+## Prerequisites
+
+- Python 3.6 or later
+- Git (optional)
+
+## Installation
+
+To run the program, follow these steps:
+
+1. Clone this repository or download it as a ZIP file and extract it.
+* git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+2. Open a terminal or command prompt, and navigate to the directory containing the script.
+3. Install the required dependencies:
+* run the command 
 
 pip install genanki 
 
-In your termnianl all other libraries should come with python already. 
+
+4. Run the script: python my_script.py
+* Replace `my_script.py` with the name of your Python script.
+
+
