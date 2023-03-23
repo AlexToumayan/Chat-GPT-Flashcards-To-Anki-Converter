@@ -12,6 +12,37 @@ So what are you waiting for? Join me in this exciting project and let's make stu
 - Python 3.6 or later
 - Git (optional)
 
+## Instructions for Users Without Python
+If you don't have Python installed on your system and can't run the pip install -r requirements.txt command, follow these instructions:
+
+* Windows
+Download the Python installer for Windows from the official website: https://www.python.org/downloads/windows/
+
+Run the installer and follow the on-screen instructions. Make sure to check the box that says "Add Python to PATH" before proceeding with the installation.
+
+Once Python is installed, open a command prompt by pressing Win + R, type cmd, and press Enter.
+
+Proceed with the steps in the "Installation" section of the README file.
+
+* macOS
+Download the Python installer for macOS from the official website: https://www.python.org/downloads/mac-osx/
+
+Run the installer and follow the on-screen instructions to install Python on your system.
+
+Once Python is installed, open the Terminal application (you can find it using the search function or in the Applications/Utilities folder).
+
+Proceed with the steps in the "Installation" section of the README file.
+
+* Linux
+Most Linux distributions come with Python pre-installed. To check if you have Python, open a terminal and type python --version or python3 --version. If Python is installed, you will see the version number displayed.
+
+If Python is not installed, use your distribution's package manager to install it. For example:
+
+For Ubuntu or Debian-based distributions, run the following command: sudo apt-get install python3
+For Fedora, run the following command: sudo dnf install python3
+For Arch Linux, run the following command: sudo pacman -S python
+Once Python is installed, proceed with the steps in the "Installation" section of the README file.
+
 ## Installation
 
 To run the program, follow these steps:
