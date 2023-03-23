@@ -17,16 +17,13 @@ So what are you waiting for? Join me in this exciting project and let's make stu
 To run the program, follow these steps:
 
 1. Clone this repository or download it as a ZIP file and extract it.
-* How to clone a repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-* Command for cloning this repository: git clone https://github.com/AlexToumayan/Chat-GPT-Flashcards-To-Anki-Converter
+   * How to clone a repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+   * Command for cloning this repository: git clone https://github.com/AlexToumayan/Chat-GPT-Flashcards-To-Anki-Converter
 
 2. Open a terminal or command prompt, and navigate to the directory containing the script.
 
 3. Install the required dependencies:
-* run the command: pip install genanki 
-
+   * run the command: pip install -r requirements.txt
 
 4. Run the script: python Final.py
-* Replace `Final.py` with the name of you saved the Python script as. If you saved it as the same then just run the original python Final.py
-
-
+   * Replace `Final.py` with the name you saved the Python script as. If you saved it as the same, then just run the original python Final.py
