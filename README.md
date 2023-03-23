@@ -20,7 +20,16 @@ To run the program, follow these steps:
    * How to clone a repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
    * Command for cloning this repository: git clone https://github.com/AlexToumayan/Chat-GPT-Flashcards-To-Anki-Converter
 
-2. Open a terminal or command prompt, and navigate to the directory containing the script.
+2. Open a terminal (on macOS or Linux) or command prompt (on Windows), and navigate to the directory containing the script:
+
+   * On Windows:
+     1. Open the Command Prompt by pressing `Win + R`, type `cmd`, and press `Enter`.
+     2. Navigate to the directory containing the script using the `cd` command followed by the path to the directory. For example, if the script is located in `C:\Users\YourUsername\Downloads\Chat-GPT-Flashcards-To-Anki-Converter`, type `cd C:\Users\YourUsername\Downloads\Chat-GPT-Flashcards-To-Anki-Converter` and press `Enter`.
+
+   * On macOS or Linux:
+     1. Open the Terminal application (you can find it using the search function or in the Applications/Utilities folder).
+     2. Navigate to the directory containing the script using the `cd` command followed by the path to the directory. For example, if the script is located in `/Users/YourUsername/Downloads/Chat-GPT-Flashcards-To-Anki-Converter`, type `cd /Users/YourUsername/Downloads/Chat-GPT-Flashcards-To-Anki-Converter` and press `Enter`.
+
 
 3. Install the required dependencies:
    * run the command: pip install -r requirements.txt
