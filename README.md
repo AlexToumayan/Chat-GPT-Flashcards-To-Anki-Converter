@@ -10,6 +10,7 @@ So what are you waiting for? Join me in this exciting project and let's make stu
 ## Prerequisites
 
 - Python 3.6 or later
+- Pip (usually included with Python, if not, see https://pip.pypa.io/en/stable/installation/)
 - Git (optional)
 
 ## Instructions for Users Without Python
