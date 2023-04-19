@@ -79,6 +79,7 @@ To get flashcards from ChatGPT, you can provide it with a prompt similar to the 
 Once you have the flashcards formatted by ChatGPT, open the Chat GPT Flashcards To Anki Converter application, and paste the flashcards into the text area following the specified format:
 
 Front: Your question
+
 Back: Your answer
 
 For example:
