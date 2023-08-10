@@ -1,5 +1,4 @@
 genanki
-tkinter
 re
 os
 json
