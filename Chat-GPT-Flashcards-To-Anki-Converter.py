@@ -22,6 +22,7 @@ from pydub import AudioSegment
 def parse_flashcards(content):
     flashcard_formats = [
         r'(?i)(?:front(?:\s+of\s+card)?\s*:\s*(.+?))(?:(?:back(?:\s+of\s+card)?\s*:\s*(.+?))?(?=front(?:\s+of\s+card)?\s*:|\Z))',
+        r'(?i)(?:question(?:\s+of\s+card)?\s*:\s*(.+?))(?:(?:answer(?:\s+of\s+card)?\s*:\s*(.+?))?(?=question(?:\s+of\s+card)?\s*:|\Z))',
     ]
 
     for format_regex in flashcard_formats:
@@ -113,6 +114,34 @@ def process_text(content, window, export_format):
         export_to_json(flashcards, output_file)
 
 def export_to_apkg(flashcards, output_file, deck_name):
+    model = genanki.Model(
+        1607392319,
+            'Enhanced Model',
+        fields=[
+            {'name': 'Front'},
+            {'name': 'Back'},
+        ],
+        templates=[
+            {
+                'name': 'Card 1',
+                'qfmt': '{{Front}}',
+                'afmt': '{{FrontSide}}<hr id="answer">{{Back}}',
+            },
+        ])
+
+    deck = genanki.Deck(
+        2059400110,
+        deck_name)
+
+    for front, back in flashcards:
+        front, back = convert_images_latex_audio(front, back)
+        note = genanki.Note(
+            model=model,
+            fields=[front, back])
+        deck.add_note(note)
+
+    genanki.Package(deck).write_to_file(output_file)
+
     model = genanki.Model(
         1607392319,
             'Enhanced Model',
