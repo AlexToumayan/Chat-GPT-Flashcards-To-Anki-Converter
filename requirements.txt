@@ -1,12 +1,5 @@
 genanki
-re
-os
-json
-csv
-pathlib
 Pillow
 markdown2
 latex2mathml
-io
-base64
 pydub
