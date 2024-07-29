@@ -92,7 +92,7 @@ After pasting your flashcards, click the "Convert" button, and the program will 
 
 ## How To Use Chat GPT To Study
 
-*Note: There has been an update to this iteration. Thanks to ChatGPT's custom GPT creator see link for application specifc GPT: https://chatgpt.com/g/g-36G6bHP4K-ankicardgpt
+*Note: There has been an update to this iteration. Thanks to ChatGPT's custom GPT creator see link for application specific GPT: https://chatgpt.com/g/g-36G6bHP4K-ankicardgpt
 
 ChatGPT can be a powerful tool for studying various subjects, including specific classes. To make the most of ChatGPT, follow these guidelines:
 
